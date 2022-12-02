@@ -5,19 +5,19 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug",
+      "name": "ts-node",
       "type": "node",
       "request": "launch",
-      "runtimeVersion": "16",
       "args": [
-        "-r",
-        "ts-node/register",
-        "src/12-1/index.ts"
+        "${relativeFile}"
       ],
-      "cwd": "${workspaceFolder}",
+      "runtimeArgs": [
+        "-r",
+        "ts-node/register"
+      ],
+      "cwd": "${workspaceRoot}",
       "protocol": "inspector",
-      "sourceMaps": true,
-      "outputCapture": "std",
-    },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
   ]
 }
