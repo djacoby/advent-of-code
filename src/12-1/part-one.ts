@@ -1,6 +1,6 @@
-import { getInput } from './get-input';
+import { getInput } from '../get-input';
 
-const input = getInput();
+const input = getInput('./12-1/input.txt');
 
 let mostCal = 0;
 

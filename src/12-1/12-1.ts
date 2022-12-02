@@ -34,4 +34,5 @@ input.reduce(
 
 const totalCal = mostCal + secondMostCal + thirdMostCal;
 
-console.log(`The total calories of the top three elves is ${totalCal} calories`);
+console.log(`The elf with the most calories has ${mostCal} calories.`);
+console.log(`The total calories of the top three elves is ${totalCal} calories.`);
